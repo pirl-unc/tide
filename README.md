@@ -6,6 +6,10 @@ y.z
 y is the version of TIDE.  
 z is the version of this Dockerfile.  
 
+```bash
+docker build . -t benjamin-vincent-lab/tide:1.1
+docker run -it --rm benjamin-vincent-lab/tide:1.1 /bin/bash
+```
 
 ```Python
 import os

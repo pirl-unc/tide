@@ -2,7 +2,7 @@ FROM ubuntu:20.10
 # This image is for running TIDE: https://github.com/liulab-dfci/TIDEpy
 
 
-ARG recent_commit=898f609af1f5130e8491173bce3a21cfbdd882d1 # most recent as of 20210707
+ARG recent_commit="898f609af1f5130e8491173bce3a21cfbdd882d1"
 
 RUN apt-get update && \
     apt-get install -y \
