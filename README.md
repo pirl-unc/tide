@@ -1,6 +1,8 @@
 This image is for running [TIDE](https://github.com/liulab-dfci/TIDEpy) for our
 Nextflow modules.
 
+* this repository originally resided at https://github.com/Benjamin-Vincent-Lab/tide , it was moved here on 2/12/2024
+
 ## Decoding the tag structure
 y.z 
 y is the version of TIDE.  
